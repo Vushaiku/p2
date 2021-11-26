@@ -1,0 +1,12 @@
+@import url('normalize.css');
+@import url('index-lowres.css') screen and (max-width: 992px);
+
+
+
+@import url('header.css');
+
+@import url('card.css');
+
+@import url('body.css');
+
+@import url('footer.css');

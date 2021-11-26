@@ -1,0 +1,54 @@
+*
+{
+	font-family: 'Raleway';
+	font-weight: 500;
+}
+
+.menu a
+{
+	color: black;
+	text-decoration: none;
+}
+
+.menu-heberg, .menu-activite
+{
+	width: 50%;
+	text-align: center;
+}
+
+.menu-heberg:hover, .menu-activite:hover
+{
+	color: #0065FC;
+	border-bottom: 2px solid #0065EC;
+
+}
+.header
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.header-logo
+{
+	align-self: center;
+	padding-bottom: 30px;
+	padding-left: 50px;
+}
+
+.menu
+{
+	display: flex;
+	flex-grow: 3;
+	justify-content: space-around;
+	border-bottom: 2px solid #F2F2F2;
+}
+
+.description
+{
+	text-align: center;
+}
+
+strong
+{
+	font-weight: bolder;
+}

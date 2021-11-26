@@ -1,0 +1,292 @@
+.card-heberg
+{
+	width: 28%;
+	height: 200px;
+	margin: 0px auto;
+	box-shadow: 0px 5px 20px grey;
+	border: 1px solid #F2F2F2;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* @media screen and (max-width: 992px)
+{
+	.card-heberg
+	{
+		width: 90%;
+		height: 200px;
+		margin: 0px auto;
+		box-shadow: 0px 5px 20px grey;
+		border: 1px solid #F2F2F2;
+		border-radius: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.test-aff-activite, .test-aff-activite-2, .test-aff-activite-3, .test-aff-activite-4, .test-aff-activite-5
+	{
+		width: 90%;
+		height: 200px;
+		margin: 0px auto;
+		box-shadow: 0px 5px 20px grey;
+		border: 1px solid #F2F2F2;
+		border-radius: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		position: relative;
+	}
+
+	.card-activite-image, .card-activite-image-mini
+	{
+		width: 100%;
+		height: 65%;
+		overflow: hidden;
+		border-top-left-radius: 20px;
+		
+		border-top-right-radius: 20px;
+	}
+
+
+	.card-activite-titre, .card-activite-titre-mini
+	{
+		position: absolute;
+		top: 75%;
+		left: 5%;
+		font-weight: bold;
+	}
+	.fill
+	{
+		object-fit: cover;
+	}
+
+	.narrow
+	{
+		width: 100%;
+		height: 100%;
+	}
+} */
+
+.card-heberg a
+{
+	color: black;
+	text-decoration: none;
+}
+
+.card-heberg:hover
+{
+	box-shadow: 0px 5px 20px #0065FC;
+}
+
+.card-heberg-image
+{
+	margin: 5px 5px 0 5px;
+	height: 60%;
+	position: relative;
+	overflow: hidden;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.card-heberg-titre
+{
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: large;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.card-heberg-prix
+{
+	padding-left: 10px;
+	padding-bottom: 5px;
+	font-size: small;
+}
+
+.checked
+{
+	color: #0065FC;
+}
+
+.unchecked
+{
+	color: #E2E2E2;
+}
+
+.card-heberg-note
+{
+	padding-left: 10px;
+	color: #F2F2F2;
+}
+
+.card-populaire
+{
+	position: relative;
+	width: 90%;
+	height: 140px;
+	margin: 0px auto;
+	box-shadow: 0px 5px 20px grey;
+	border: 1px solid #F2F2F2;
+	border-radius: 20px;
+	padding-bottom: 4%;
+	margin-bottom: 30px;
+	padding-right: 2%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.card-populaire a
+{
+	color: black;
+	text-decoration: none;
+}
+
+.card-populaire:hover
+{
+	box-shadow: 0px 5px 20px #0065FC;
+}
+
+.card-populaire-image
+{
+	margin: 6px;
+	height: 100%;
+	width: 45%;
+	overflow: hidden;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.card-populaire-body
+{
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	font-size: small;
+	height: 140px;
+}
+
+.card-populaire-titre
+{
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: large;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.card-populaire-prix
+{
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.card-populaire-note
+{
+	position: absolute;
+	top: 85%;
+	
+	padding-left: 10px;
+	color: #F2F2F2;
+}
+
+.test-aff-activite
+{
+	border-radius: 20px;
+	position: relative;
+	height: 100%;
+	width:20%;
+	box-shadow: 0px 5px 20px grey;
+}
+
+.test-aff-activite:hover, .test-aff-activite-2:hover, .test-aff-activite-3:hover, .test-aff-activite-4:hover, .test-aff-activite-5:hover
+{
+	box-shadow: 0px 5px 20px #0065FC;
+}
+
+.test-aff-activite-2
+{
+	position:relative;
+	height: 55%;
+	width:100%;
+	border-radius: 20px;
+	box-shadow: 0px 5px 20px grey;
+}
+.test-aff-activite-3
+{
+	height: 35%;
+	width:100%;
+	position: relative;
+	border-radius: 20px;
+	box-shadow: 0px 5px 20px grey;
+}
+.test-aff-activite-4
+{
+	position:relative;
+	height: 45%;
+	width:100%;
+	border-radius: 20px;
+	box-shadow: 0px 5px 20px grey;
+}
+.test-aff-activite-5
+{
+	position: relative;
+	height: 50%;
+	width:100%;
+	border-radius: 20px;
+	box-shadow: 0px 5px 20px grey;
+}
+
+.test
+{
+	display:flex;
+	height: 100%;
+	width:20%;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.card-activite-image
+{
+	width: 100%;
+	height: 85%;
+	overflow: hidden;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+
+.card-activite-image-mini
+{
+	width: 100%;
+	height: 70%;
+	overflow: hidden;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.card-activite-titre
+{
+	position: absolute;
+	top: 90%;
+	left: 5%;
+	font-weight: bold;
+}
+
+.card-activite-titre-mini
+{
+	position: absolute;
+	top: 80%;
+	left: 5%;
+	font-weight: bold;
+}
+
+.fill
+{
+	object-fit: cover;
+}
+
+.narrow
+{
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,148 @@
+@import url('card.css');
+
+a
+{
+	text-decoration: none;
+	color:black;
+}
+
+.recherche
+{
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.champ-recherche
+{
+	border-color: #F2F2F2;
+	flex-grow: 2;
+}
+
+.marqueur-icon
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 40px;
+	height: 40px;
+	background-color: #F2F2F2;
+
+	border-top-left-radius: 13px;
+	border-bottom-left-radius: 13px;
+}
+
+.b-recherche
+{
+	display: none;
+}
+
+.btn
+{
+	border-radius: 10px;
+	color: white;
+	background-color: #0065FC;
+	width: 40px;
+	height: 40px;
+	box-shadow: none;
+	border: 1px solid white;
+}
+
+.filtre
+{
+	align-self: center;
+	display: flex;
+}
+
+.filtres
+{
+	display: flex;
+	padding-top: 20px;
+	padding-left: 5%;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	font-weight: bolder;
+
+}
+
+.eco:hover, .famille:hover, .romance:hover, .animaux:hover
+{
+	background-color: #0065FC;
+	color: white;
+}
+
+#icon-eco, #icon-famille, #icon-romance, #icon-animaux
+{
+	margin-left: 20px;
+	margin-right: -45px;
+}
+
+.eco, .famille, .romance, .animaux
+{
+	background-color: white;
+	border: 2px solid #F2F2F2;
+	border-radius: 30px;
+	padding: 10px;
+	margin-left: 10px;
+	padding-left: 30px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-weight: bolder;
+}
+
+.resultat-total
+{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+}
+
+.resultat-heberg
+{
+	order: 2;
+}
+
+.resultat-liste-heberg
+{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+}
+
+.card-heberg
+{
+	width: 90%;
+}
+
+.resultat-populaire
+{
+	background-color: #F2F2F2;
+	position: relative;
+}
+
+.titre-populaire
+{
+	text-align: left;
+	font-weight: bold;
+	font-size: x-large;
+	padding: 5% 0 5% 7%;
+}
+
+.icon-populaire
+{
+	position: absolute;
+	top: 5%;
+	left: 90%;
+	font-weight: bold;
+
+}
+
+.affichage-activite
+{
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	width: 90%;
+	padding-right: 3%;
+}

@@ -1,0 +1,47 @@
+footer
+{
+	padding-top: 100px;
+}
+
+.titre-footer
+{
+	font-weight: bold;
+}
+
+footer ul
+{
+	font-weight: bold;
+	font-size: large;
+}
+
+footer li
+{
+	font-weight: lighter;
+	font-size:medium;
+}
+
+.pied
+{
+	background-color: #F2F2F2;
+	display: flex;
+	flex-direction: row;
+}
+
+.apropos, .hebergement, .assistance
+{
+	padding-top: 10px;
+	padding-right: 15%;
+	padding-left: 3%;
+}
+
+
+.pied ul
+{
+	list-style: none;
+	padding:0;
+}
+
+.pied ul li
+{
+	margin-bottom: 10px;
+}

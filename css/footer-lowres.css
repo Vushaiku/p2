@@ -1,0 +1,39 @@
+footer
+{
+	padding-top: 70px;
+}
+
+.titre-footer
+{
+	font-weight: bold;
+}
+
+.pied
+{
+	background-color: #F2F2F2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.pied h3
+{
+    font-weight: bold;
+}
+
+.pied div
+{
+	padding-top: 10px;
+}
+
+
+.pied ul
+{
+	list-style: none;
+	padding:0;
+}
+
+.pied ul li
+{
+	margin-bottom: 10px;
+}
