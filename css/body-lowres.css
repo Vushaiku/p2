@@ -20,6 +20,12 @@ a
 	flex-grow: 2;
 }
 
+.champ-recherche::placeholder
+{
+	padding-left: 5px;
+}
+
+
 .marqueur-icon
 {
 	display: flex;
@@ -107,7 +113,7 @@ a
 {
 	display: flex;
 	flex-direction: column;
-	width: 90%;
+	width: 100%;
 }
 
 .card-heberg
